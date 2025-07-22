@@ -40,6 +40,9 @@ GOOS=linux GOARCH=amd64 ./build.sh
 echo "  Linux arm32..."
 GOOS=linux GOARCH=arm ./build.sh
 
+echo "  Linux arm64..."
+GOOS=linux GOARCH=arm64 ./build.sh
+
 echo "  macOS amd64..."
 GOOS=darwin GOARCH=amd64 ./build.sh
 echo "  Windows amd64..."
